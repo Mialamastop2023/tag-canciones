@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2? familia= Baile+Guión &familia= Lora:ital@1 &family= Playfair+Display & display=swap');
+
+.titulo1{
+    font-size: 2rem;
+    color:rgb(244, 7, 110), 125, 203);
+    justify-content:center ;
+    font-family: 'Playfair Display', serif;
+}
+.titulo2{
+    font-family: 'Lora', serif;
+}
+.titulo3{
+    font-family: 'Dancing Script', cursive;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+    color:hotpink;
+    font-family: 'Lora', serif;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(240, 65, 65);
+}
+body{
+    background-color: rgb(250, 99, 217), 182, 255);
+    background-image: linear-gradient(45deg, #ff85be 0%, #FFFB7D 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.table{
+    border-collapse: collapse;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th{
+    background-color: #e262b1;
+    color: black;
+}
+.table td:hover{
+    background-color: rgb(238, 100, 185)38, 225);
+    color: white;
+}
+.table th:hover{
+    background-color: rgb(250, 135, 210);
+    color: white;
+}
+.td{
+    font-weight: bold;
+}
+caption{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
